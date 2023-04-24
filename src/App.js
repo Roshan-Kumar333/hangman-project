@@ -20,6 +20,8 @@ function App() {
 
   useEffect(() => {
     const handleKeydown = event => {
+
+
       const { key, keyCode } = event;
       if (playable && keyCode >= 65 && keyCode <= 90) {
         const letter = key.toLowerCase();
