@@ -11,8 +11,11 @@ const Word = ({ selectedWord, correctLetters }) => {
           </span>
         )
       })}
+
     </div>
   )
+
+
 }
 
 export default Word
